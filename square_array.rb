@@ -1,3 +1,5 @@
 def square_array(array)
-  array.map{|num| num * num}
+  arr = []
+  array.map{|num| arr.push(num * num)}
+  arr
 end
