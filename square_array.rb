@@ -1,5 +1,5 @@
 def square_array(array)
   arr = []
-  array.map{|num| arr.push(num * num)}
+  array.each{|num| arr.push(num * num)}
   arr
 end
